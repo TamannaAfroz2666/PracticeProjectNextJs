@@ -15,3 +15,22 @@
     color: rgb(153, 86, 86);
    
 }
+.imgLoad{
+height: 300px;
+margin: 1rem 0 .5rem 3rem;
+
+}
+.btnGroup{
+    display: flex;
+    justify-content: space-between;
+}
+.learnMore button {
+    border: 1px solid blue;
+    color: blue;
+    margin: 2rem 0 2rem 3rem;
+}
+.removeBtn button {
+    border: 1px solid rgb(55, 55, 61);
+    color: #111;
+    margin: 2rem 3rem 2rem 0rem;
+}
