@@ -1,16 +1,15 @@
 
 import Link from 'next/link';
-import '../Styles/Home.css'
-// import Base from './components/page';
-// import Dashboard from './dashboard/page';
-// import Appto from './appto/Appto';
+import '../Styles/Home.css';
+import BlogContent from './content-blog/page';
+
 
 export default function Home() {
   return (
     <main className=" min-h-screen ">
       <div className="containerMain">
         <div className="navContainer">
-          <ul className='navContainerUl'>
+          <ul className='navContainerUl pt-12 '>
             <li>
               <Link className='relevantTitle' href="/relevant">Relevant</Link>
               </li>
@@ -21,10 +20,12 @@ export default function Home() {
               <Link className='linkTitle' href="/top">top</Link>
               </li>
           </ul>
+          <div className="contentContainer">
+            <BlogContent></BlogContent>
+
+          </div>
         </div>
-        <h1 className="tagName">
-        Home page
-      </h1>
+       
       </div>
      
     </main>

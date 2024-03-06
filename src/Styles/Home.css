@@ -13,12 +13,16 @@
     margin: auto;
 
 }
-.navContainerUl{
+.navContainer{
     width: 60%;
     margin: auto;
+
+}
+.navContainerUl{
     display: flex;
     gap: 1rem;
-    margin-top: 4rem;
+  
+    /* margin-top: 1rem; */
 }
 .relevantTitle{
     font-size: 18px;
@@ -26,6 +30,7 @@
     text-transform: capitalize;
     color: #111;
     padding: 10px 14px;
+  
 
 }
 .relevantTitle:hover{
@@ -39,8 +44,10 @@
     text-transform: capitalize;
     color: #08090a;
     padding: 10px 14px;
+  
 }
 .linkTitle:hover{
     background-color: aliceblue;
 
 }
+

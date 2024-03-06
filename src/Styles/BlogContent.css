@@ -1,0 +1,17 @@
+.BlogContent{
+    height: 100%;
+}
+.contentsContainer{
+    margin-top: 32px;
+    border: 1px solid rgb(226, 218, 218);
+}
+.sortTitle{
+    font-size: 14px;
+    font-weight: 400;
+    color: #111;
+    padding: 1rem;
+}
+.titleBlog:hover{
+    color: rgb(153, 86, 86);
+   
+}
