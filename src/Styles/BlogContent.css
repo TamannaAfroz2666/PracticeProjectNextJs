@@ -37,3 +37,9 @@ margin: 1rem 0 .5rem 3rem;
 
 
 /* ==================out site ======================== */
+.containerSection{
+    display: grid;
+    grid-row: auto;
+    row-gap: 2rem;
+
+}
