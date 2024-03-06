@@ -5,3 +5,30 @@
 .tagName{
     color: red;
 }
+/* ---------------------using system on main page designing--------------------------------- */
+
+
+.containerMain{
+    width: 90%;
+    margin: auto;
+
+}
+.navContainerUl{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.relevantTitle{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #111;
+    padding: 10px 14px;
+
+}
+.relevantTitle:hover{
+    background-color: aliceblue;
+    color: rgba(0, 0, 128, 0.973);
+}
