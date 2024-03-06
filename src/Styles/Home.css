@@ -32,3 +32,15 @@
     background-color: aliceblue;
     color: rgba(0, 0, 128, 0.973);
 }
+
+.linkTitle{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #08090a;
+    padding: 10px 14px;
+}
+.linkTitle:hover{
+    background-color: aliceblue;
+
+}
