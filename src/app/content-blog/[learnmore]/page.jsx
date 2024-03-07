@@ -12,14 +12,15 @@ const LearnMore = () => {
 
 
   return (
-    <div>
+    <div className="cardContainer">
       <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <div className="flex justify-end px-4 pt-4">
       <button
         id="dropdownButton"
         onClick={openToggle}
-        className="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
+        className="dropDownBtn inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
         type="button"
+        
       >
         <span className="sr-only">Open dropdown</span>
         <svg
@@ -35,9 +36,9 @@ const LearnMore = () => {
       {/* Dropdown menu */}
       <div
         id="dropdown"
-        className={`z-10 ${isOpen ? 'block' : 'hidden'} text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700`}
+        className={`z-10 ${isOpen ? 'block' : 'hidden'}  text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700`}
       >
-        <ul className="py-2" aria-labelledby="dropdownButton">
+        <ul className="py-2 dropDownList11" aria-labelledby="dropdownButton">
           <li>
             <a
               href="#"

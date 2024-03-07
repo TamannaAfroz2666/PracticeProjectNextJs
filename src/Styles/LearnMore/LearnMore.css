@@ -7,3 +7,14 @@
 .imgCore{
     border-radius: 50%;
 }
+.dropDownBtn{
+    position: fixed;
+}
+#dropdown{
+    margin: 3rem 0 0 0;
+    position: fixed;
+}
+.cardContainer{
+    margin: 3rem 4rem;
+    position: relative;
+}
