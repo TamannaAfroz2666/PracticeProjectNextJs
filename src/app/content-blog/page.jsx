@@ -71,7 +71,7 @@ function BlogContent() {
               <Link href={{
                 pathname:"/content-blog/learn-more",
                 query:{
-                  isVisit: false
+                  isVisit: true
 
                 }
                 
