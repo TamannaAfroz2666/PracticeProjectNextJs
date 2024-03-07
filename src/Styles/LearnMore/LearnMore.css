@@ -1,20 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.imgCore{
+.imgCore {
     border-radius: 50%;
 }
-.dropDownBtn{
+
+.dropDownBtn {
     position: fixed;
 }
-#dropdown{
+
+#dropdown {
     margin: 3rem 0 0 0;
     position: fixed;
 }
-.cardContainer{
+
+.cardContainer {
     margin: 3rem 4rem;
     position: relative;
+}
+
+.addFriend {
+    width: 180px;
+    position: relative;
+    padding: 12px 52px;
+    font-size: 15px;
+
+}
+
+.cancelFriendRequest {
+    width: 180px;
+    position: relative;
+    padding: 12px 70px;
+    font-size: 15px;
+
 }
