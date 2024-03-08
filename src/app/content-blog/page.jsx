@@ -47,7 +47,7 @@ function BlogContent() {
                     <h5 className="text-sm font-normal text-slate-900 p-4"> DEV community</h5>
                      <h1
                  
-                  className=" text-xl font-bold pl-12 pb-8 pr-4 pt-4 hover:text-sky-600"
+                  className=" text-xl font-bold pl-12 pb-8 pr-4 pt-4 hover:text-sky-600 md: text-sky-600 p-4"
                 >
                   {post.title}
                
@@ -55,7 +55,7 @@ function BlogContent() {
                 <div className="jj">
                 <div className="infoContainer">
         
-          <p className="descriptionBlog text-base pl-12 pr-12 pb-4 leading-6 tracking-wide text-justify ">
+          <p className="text-base pl-12 pr-12 pb-4 leading-6 tracking-wide text-justify ">
             {post.body}
           </p>
 
