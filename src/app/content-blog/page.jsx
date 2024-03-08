@@ -44,10 +44,10 @@ function BlogContent() {
               {data.map((post) => {
                 return(
                   <div  key={post.id} className="contentsContainer">
-                    <h5 className="sortTitle"> DEV community</h5>
+                    <h5 className="text-sm font-normal text-slate-900 p-4"> DEV community</h5>
                      <h1
                  
-                  className="titleBlog text-xl font-bold pl-12 pb-8"
+                  className=" text-xl font-bold pl-12 pb-8 pr-4 pt-4 hover:text-sky-600"
                 >
                   {post.title}
                
