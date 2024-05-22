@@ -47,7 +47,7 @@ function BlogContent() {
                     <h5 className="text-sm font-normal text-slate-900 p-4"> DEV community</h5>
                      <h1
                  
-                  className=" text-xl font-bold pl-12 pb-8 pr-4 pt-4 hover:text-sky-600 md: text-sky-600 p-4"
+                  className=" text-xl font-bold pl-12 pb-8 pr-4 pt-4 hover:text-orange-600  "
                 >
                   {post.title}
                
@@ -62,9 +62,9 @@ function BlogContent() {
           <Image
             src="/img1.jpg"
             width={670}
-            height={500}
+            height={100}
             alt="Picture of the author"
-            className="imgLoad"
+            className=" mt-4 mb-2 ml-12 h-96"
           />
           <div className="btnGroup">
             <div className="learnMore">
@@ -86,7 +86,7 @@ function BlogContent() {
               </button>
               </Link>
             </div>
-            <div className="removeBtn">
+            <div className="removeBtn ">
               <button
               onClick={()=> removeClick(post.id)}
                 type="button"
